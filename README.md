@@ -2,7 +2,7 @@
 
 ## How to use
 First, few imports
-```
+```python
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.nn.init as init
@@ -10,7 +10,7 @@ import torch.nn.init as init
 from weight_initializer import Initializer
 ```
 Then, we can define a simple model
-```
+```python
 # Simple model
 class Model(nn.Module):
     def __init__(self):
@@ -23,7 +23,7 @@ class Model(nn.Module):
         return F.relu(self.conv2(x))
 ```
 After that all what we need to do is to instantiate the model and call the weight initializer. You can pass whatever arguments you need to pass to the weight initializer.
-```
+```python
 net = Model()  # instantiate the model
 
 # to apply xavier_uniform:
