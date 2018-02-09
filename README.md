@@ -1,4 +1,4 @@
-# Weight Initializer For pytorch Models
+# Weights Initializer For pytorch Models
 This is a class to make initializing the weights easier in pytorch.
 
 ## How to use
